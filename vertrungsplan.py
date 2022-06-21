@@ -1,8 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-import lxml
-import numpy as np
 
 substring = input("Klasse: ")
 substring = substring.replace(" ", "")
@@ -15,7 +13,7 @@ for urllist in range(days):
     doc = BeautifulSoup(result.text, "html.parser")
 
     date = doc.div.string
-    print(date)
+    print("--- " + date + " ---")
 
     dfs = pd.read_html(url, index_col=False)
     df = dfs[1]
@@ -23,5 +21,7 @@ for urllist in range(days):
 
     if "Empty DataFrame" in str(df):
         print("Keine Vertretung")
+        print("")
     else:
         print(df)
+        print("")
