@@ -21,4 +21,7 @@ for urllist in range(days):
     df = dfs[1]
     df = df[df.apply(lambda row: row.astype(str).str.contains(substring, case=False).any(), axis=1)]
 
-    print(df)
+    if "Empty DataFrame" in str(df):
+        print("Keine Vertretung")
+    else:
+        print(df)
