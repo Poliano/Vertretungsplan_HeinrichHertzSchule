@@ -7,15 +7,10 @@ Es gibt bisher 2 Versionen, welche bei der "Branch" Einstellung ausgewählt werd
 
 ## Installation
 
-Installation der Python Version 
+Installation der exe Version 
 
-Bibliotheken installieren mit [pip](https://pip.pypa.io/en/stable/).
+Datei herunterladen und audführen.
 
-```bash
-pip install BeautifulSoup
-pip install requests
-pip install pandas
-```
 
 ## Nutzung
 
@@ -30,7 +25,7 @@ Klasse: Einstellungen
 Klasse: help
 Klasse: hilfe
 ```
-Öffnen Sie Plan.py und geben Sie die gewünschte Klasse oder den gewünschten Jahrgang ein. Für mehr Informationen geben Sie help oder Hilfe ein. **Groß- und Kleinschreibung ist irrelevant**
+Öffnen Sie Plan.exe und geben Sie die gewünschte Klasse oder den gewünschten Jahrgang ein. Für mehr Informationen geben Sie help oder Hilfe ein. **Groß- und Kleinschreibung ist irrelevant**
 
 ## Funktion
 
