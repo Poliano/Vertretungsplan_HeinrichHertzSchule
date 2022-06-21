@@ -16,4 +16,5 @@ dfs = pd.read_html(url, index_col=False)
 df = dfs[1]
 
 substring = input("Eingabe: ")
+substring = substring.replace(" ", "")
 print(df[df.apply(lambda row: row.astype(str).str.contains(substring, case=False).any(), axis=1)])
