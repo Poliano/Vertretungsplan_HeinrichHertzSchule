@@ -1,7 +1,7 @@
 #A Project by Ben Ber 2022
 
 #!/usr/bin/env python3
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup   #just used to get the date ver bad
 import requests
 import pandas as pd
 #defaults
