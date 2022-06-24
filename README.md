@@ -3,7 +3,7 @@
 Ein einfaches Programm zum auslesen des Heinrich Hertz Vertretungsplanes.
 
 ## Versionen
-Es gibt bisher 2 Versionen, welche bei der "Branch" (master) Einstellung ausgewählt werden können. Der Master "Branch" enthält die **python** Version auf welcher das Projekt basiert. Der Exe "Branch" enthält eine mit auto-py-to-exe generierte **.exe** Datei für Windows
+Es gibt bisher 2 Versionen, welche bei der "Branch" (master) Einstellung ausgewählt werden können. Der Master "Branch" enthält die **python** Version auf welcher das Projekt basiert. Der Exe "Branch" enthält eine mit auto-py-to-exe generierte [**.exe**](https://github.com/Poliano/Vertretungsplan_HeinrichHertzSchule/tree/exe) Datei für Windows
 
 ## Installation
 
