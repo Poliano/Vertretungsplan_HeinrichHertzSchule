@@ -3,8 +3,7 @@
 #!/usr/bin/env python3
 print("--- Stundenplan Abfrage HHS ---")    #just to cover up the loading time (psst)
 print("")
-from bs4 import BeautifulSoup
-from numpy import sort_complex   #just used to get the date very inefficient
+from bs4 import BeautifulSoup	#just used to get the date very inefficient
 import requests
 import pandas as pd
 #defaults
