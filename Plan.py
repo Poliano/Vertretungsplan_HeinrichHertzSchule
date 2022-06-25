@@ -69,7 +69,7 @@ while loop  == "y":
 		urllist = urllist + 1
 		url = f"https://www.heinrich-hertz-schule-hamburg.de/vertretungsplan/subst_00{urllist}.htm" #url of the time table
 		result = requests.get(url)
-		doc = BeautifulSoup(result.text, "html.parser") #using bs4 for the html header to get date bs4 and requests libarys are just to get the date an slow the program a lot down but there is no way th get the date with pandas :(
+		doc = BeautifulSoup(result.text, "html.parser")
 
 		date = doc.div.string   #get date from html header
 		print("--- " + date + " ---")   #cosmetic for the date
